@@ -1,0 +1,48 @@
+Strat logging... 
+Current Interval: 300 
+=============================================== 
+-- Make report and compress all logs 
+-- Phase 0 - Copy all HPBC report  -- 
+ 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows の堅牢性の高いファイル コピー                              
+-------------------------------------------------------------------------------
+
+  開始: Monday, August 07, 2017 11:01:39 AM
+   コピー元 - C:\ProgramData\Hewlett-Packard\HP\
+     コピー先 - C:\Temp\battery\Support\
+
+    ファイル: 
+  オプション: /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+エラー: 無効なパラメーター #3 : "Framework\Logs\Application\BatteryCheck"
+
+       簡易な使用法 :: ROBOCOPY コピー元 コピー先 /MIR
+
+           コピー元 :: コピー元ディレクトリ (ドライブ:\パスまたは \\サーバー
+                       \共有\パス)。
+           コピー先 :: コピー先ディレクトリ (ドライブ:\パスまたは \\サーバー
+                       \\共有\パス)。
+               /MIR :: 完全なディレクトリ ツリーをミラー化します。
+
+    詳細な使用方法については、ROBOCOPY /? を実行してください。
+
+                                                          
+****  /MIR はファイルをコピーできるだけでなく、削除もできます。
+-- Make report and compress all logs 
+-- Phase 1 - Capture Windows battery report  -- 
+ 
+        1 個のファイルを移動しました。
+ 
+-- Phase 2 - Capture Windows Power Profile  -- 
+ 
+        1 個のファイルを移動しました。
+ 
+-- Phase 3 - Making battery report -- 
+ 
+ 
+-- Phase 4 - Compress -- 
+ 
