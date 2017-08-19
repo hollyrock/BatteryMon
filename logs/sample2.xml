@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+  <session-tracking-info appName="BatteryCheck70">
+    <attribute name="LaunchPoint" value="Battery Check" />
+    <attribute name="start" value="08/04/2017 05:40:24 UTC" />
+    <attribute name="end" value="08/04/2017 05:40:24 UTC" />
+    <attribute name="offerlocale" value="0411" />
+  </session-tracking-info>
+  <element name="Product" type="Description" sequence-id="0">
+    <attribute name="SerialNumber" value="52420" />
+    <attribute name="ProductNumber" value="M1S29UC#ACF" />
+    <attribute name="ProductName" value="HP EliteBook 745 G2" />
+    <attribute name="ASLVersion" value="8.0.0.15" />
+  </element>
+  <element name="Battery0" type="Result" sequence-id="0">
+    <attribute name="TestResult" value="0" />
+    <attribute name="DesignCapacity" value="4450" />
+    <attribute name="FullChargeCapacity" value="4001" />
+    <attribute name="RemainingCapacity" value="3879" />
+    <attribute name="StorageCapacity" value="89" />
+    <attribute name="MaxError" value="1" />
+    <attribute name="CycleCount" value="117" />
+    <attribute name="Temperature" value="38" />
+    <attribute name="TerminalVoltage" value="12821" />
+    <attribute name="Current" value="0" />
+    <attribute name="DesignVoltage" value="11400" />
+    <attribute name="BatteryManufactureName" value="33-24" />
+    <attribute name="Status" value="E0" />
+    <attribute name="CellVoltage1" value="0" />
+    <attribute name="CellVoltage2" value="4270" />
+    <attribute name="CellVoltage3" value="4273" />
+    <attribute name="CellVoltage4" value="4276" />
+    <attribute name="BatteryACPower" value="True" />
+    <attribute name="BatterySupportedCount" value="2" />
+    <attribute name="SerialNumber" value="32809 2015/05/15" />
+    <attribute name="satId" value="32809" />
+    <attribute name="ManufactureDate" value="2015/05/15" />
+    <attribute name="SubTable" value="0" />
+    <attribute name="InWarranty" value="True" />
+    <attribute name="CTNumber" value="6DJGD11BB8R3HC" />
+  </element>
+  <element name="Battery1" type="Result" sequence-id="0">
+    <attribute name="TestResult" value="60" />
+    <attribute name="SubTable" value="1" />
+  </element>
+</payload>
